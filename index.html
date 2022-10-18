@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Squid Game</title>
+</head>
+<body>
+    <div class="content-container">
+        <img class="logo" src="./images/logo-1.png" width="200px" alt="logo">
+        <form action="" method="post">
+            <label for="full-name">Full Name</label><br>
+            <input type="text" id="full-name" name="full-name"><br>
+            <label for="debt-amount">Amount of Debt (optional)</label><br>
+            <input type="text" pattern="[0-9]*" id="debt" name="debt">
+            <p>Which game you can play? (You can choose several games at the same time as you want)</p>
+            <input type="checkbox" id="red-green-light" name="red-green-light">
+            <label for="red-green-light">Red Light, Green Light</label><br>
+            <input type="checkbox" id="thug-of-war" name="thug-of-war">
+            <label for="thug-of-war">Thug of War</label><br>
+            <input type="checkbox" id="midnight-fight" name="midnight-fight">
+            <label for="midnight-fight">The Midnight Fight</label><br>
+            <input type="checkbox" id="dalgona-candy" name="dalgona-candy">
+            <label for="dalgona-coffee">Dalgona Candy</label><br><br>
+            <label for="adress">Enter your adress</label><br>
+            <input type="text" id="adress" name="adress"><br>
+            <label for="disease-label">Please note in advance if you have any diseases or allergies</label><br>
+            <input type="text" id="disease" name="disease"><br>
+        </form>
+    </div>
+</body>
+</html>
