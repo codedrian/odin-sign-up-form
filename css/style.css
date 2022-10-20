@@ -7,8 +7,45 @@ body{
     background-size: cover;
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.content-container {
+
+.form-container {
+    position: relative;
     background-color: #ffffff;
-    margin: 0 auto;
+    border-radius: 13px;
+    max-width: 500px;
+
+    height: 100%;
+    margin: 15px 0px;
+}
+form {
+    margin: 50px;
+    max-width: 400px;
+    
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: 10px;
+}
+.logo img {
+    width: 230px;
+}
+.label {
+    width: 215px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+    border-radius: 5px;
+    max-width: 395px;
+    width: 600px;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(233, 245, 245);
 }
