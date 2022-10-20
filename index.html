@@ -9,13 +9,15 @@
     <title>Squid Game</title>
 </head>
 <body>
-    <div class="content-container">
-        <img class="logo" src="./images/logo-1.png" width="200px" alt="logo">
+    <div class="form-container">
+        <div class="logo">
+            <img src="./images/logo-1.png" alt="logo">
+        </div>
         <form action="" method="post">
-            <label for="full-name">Full Name</label><br>
-            <input type="text" id="full-name" name="full-name"><br>
-            <label for="debt-amount">Amount of Debt (optional)</label><br>
-            <input type="text" pattern="[0-9]*" id="debt" name="debt">
+            <label class="full-name label" for="full-name">Full Name</label>
+            <input class="input" type="text" id="full-name" name="full-name">
+            <label for="debt-amount">Amount of Debt (optional)</label>
+            <input class="input" type="text" pattern="[0-9]*" id="debt" name="debt">
             <p>Which game you can play? (You can choose several games at the same time as you want)</p>
             <input type="checkbox" id="red-green-light" name="red-green-light">
             <label for="red-green-light">Red Light, Green Light</label><br>
@@ -26,10 +28,10 @@
             <input type="checkbox" id="dalgona-candy" name="dalgona-candy">
             <label for="dalgona-coffee">Dalgona Candy</label><br><br>
             <label for="adress">Enter your adress</label><br>
-            <input type="text" id="adress" name="adress"><br>
-            <label for="disease-label">Please note in advance if you have any diseases or allergies</label><br>
-            <input type="text" id="disease" name="disease"><br>
-        </form>
-    </div>
+            <input class="input" type="text" id="adress" name="adress"><br>
+            <label for="disease-label">Please note in advance if you have any diseases or allergies</label>
+            <input class="input" type="text" id="disease" name="disease">
+            </form>
+        </div>
 </body>
 </html>
