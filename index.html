@@ -9,29 +9,36 @@
     <title>Squid Game</title>
 </head>
 <body>
-    <div class="form-container">
-        <div class="logo">
-            <img src="./images/logo-1.png" alt="logo">
-        </div>
-        <form action="" method="post">
-            <label class="full-name label" for="full-name">Full Name</label>
-            <input class="input" type="text" id="full-name" name="full-name">
-            <label for="debt-amount">Amount of Debt (optional)</label>
-            <input class="input" type="text" pattern="[0-9]*" id="debt" name="debt">
-            <p>Which game you can play? (You can choose several games at the same time as you want)</p>
-            <input type="checkbox" id="red-green-light" name="red-green-light">
-            <label for="red-green-light">Red Light, Green Light</label><br>
-            <input type="checkbox" id="thug-of-war" name="thug-of-war">
-            <label for="thug-of-war">Thug of War</label><br>
-            <input type="checkbox" id="midnight-fight" name="midnight-fight">
-            <label for="midnight-fight">The Midnight Fight</label><br>
-            <input type="checkbox" id="dalgona-candy" name="dalgona-candy">
-            <label for="dalgona-coffee">Dalgona Candy</label><br><br>
-            <label for="adress">Enter your adress</label><br>
-            <input class="input" type="text" id="adress" name="adress"><br>
-            <label for="disease-label">Please note in advance if you have any diseases or allergies</label>
-            <input class="input" type="text" id="disease" name="disease">
+    <div class="white-layer">
+        <div class="form-container">
+            <div class="logo">
+                <img src="./images/logo-1.png" alt="logo">
+            </div>
+            <form action="" method="post">
+                <label class="full-name label" for="full-name">Full Name</label>
+                <input class="input" type="text" id="full-name" name="full-name">
+                <label class="debt-amount label" for="debt-amount">Amount of Debt (optional)</label>
+                <input class="input" type="text" pattern="[0-9]*" id="debt" name="debt">
+                <p class="label">Which game you can play? (You can choose several games at the same time as you want)</p>
+                <input type="checkbox" class="check-box" name="red-green-light">
+                <label for="red-green-light">Red Light, Green Light</label><br>
+                <input type="checkbox" class="check-box" name="squid-game">
+                <label for="squid-game">Squid Game</label><br>
+                <input type="checkbox" class="check-box" name="thug-of-war">
+                <label for="thug-of-war">Thug of War</label><br>
+                <input type="checkbox" class="check-box" name="midnight-fight">
+                <label for="midnight-fight">The Midnight Fight</label><br>
+                <input type="checkbox" class="check-box" name="dalgona-candy">
+                <label for="dalgona-coffee">Dalgona Candy</label><br><br>
+                <label for="adress" class="label">Enter your adress</label><br>
+                <input class="input" type="text" id="adress" name="adress"><br>
+                <label for="disease-label" class="label">Please note in advance if you have any diseases or allergies</label>
+                <input class="input" type="text" id="disease" name="disease">
+                <button class="signup-btn">Sign Up</button>
+                <p class="consent">By submitting you agree that we review all your personnal and financial data (including
+                    everyone)</p>
             </form>
         </div>
+    </div>
 </body>
 </html>
