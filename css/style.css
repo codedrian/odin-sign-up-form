@@ -5,26 +5,28 @@
 body {
     background: linear-gradient(rgb(255, 255, 255, .5), rgb(255, 255, 255, .5)), url(../images/background.jpg) no-repeat center center fixed; 
     background-size: cover;
-    height: 100%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 20px 0px;
 }
 .form-container {
-    position: relative;
     background-color: #ffffff; 
     border-radius: 13px;
     max-width: 500px;
-    height: 100%;
-    margin: 15px 0px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    
 }
 form {
-    margin: 50px;
     max-width: 400px;
-    height: 500px;
+    height: auto;
+    background: #ffffff;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 .logo {
     display: flex;
@@ -65,5 +67,4 @@ form {
 p.consent {
     text-align: center;
     font-size: 15px;
-    margin-bottom: 20px;
 }
